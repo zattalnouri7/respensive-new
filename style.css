@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* navbar */
+
+.nav1 ul{
+       margin-left: 299px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.container-fluid{
+    background-color: #ffffff;
+}
+.nav1{
+     background-color: #ffffff !important;
+}
+  
+
+.imag1{
+    width: 100%;
+    height: 465px;
+}
+
+.ima{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+ .ima img{
+    width: 415px;
+    height: 350px;
+ }
+  .ima img:hover{
+       width: 419px;
+    height: 355px;
+  }
+
+
+   @media (max-width : 1261px){
+     .ima img{
+    width: 390px;
+    height: 300px;
+ }
+   }
+
+
+      @media (max-width : 1295px){
+    .ima img{
+    width: 350px;
+    height: 250px;
+ }
+   }
+
+      @media (max-width :  1128px){
+    .ima img{
+    width: 300px;
+    height: 200px;
+ }
+   }
+
+      @media (max-width : 920px){
+    .ima{
+  display: flex;
+  flex-direction: column;
+ }
+   }
+        @media (max-width : 920px){
+    .ima img{
+         width: 415px;
+    height: 350px;
+    margin-top: 15px;
+
+ }
+   }
+
+
+
+ .para{
+    text-align: center;
+    padding: 115px;
+    color: rgb(41, 41, 41);
+ }
+ .para p{
+    color: rgb(165, 165, 165);
+ }
+
+
+
+
+ /* carta */
+
+
+
+ .card-body p{
+    text-align: center;
+        margin-top: -17px;
+        border: none;
+       
+ }
+ .card-body h5{
+        margin-bottom: 25px;
+ }
+
+
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 69%;
+    margin-left: 211px;
+       
+}
+
+.card-body h5{
+        text-align: center;
+        color: #bb8a69;
+}
+
+
+.card-body img{
+        width: 18rem;
+}
+
+.card{
+     height: 309px !important;
+       border: none !important;
+}
+
+
+       @media (max-width : 1266px){
+  
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 80%;
+    margin-left: 211px;
+       
+}
+   }
+
+
+
+
+          @media (max-width : 1068px){
+  
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 90%;
+    margin-left: 91px;
+       
+}
+   }
+
+            @media (max-width : 1098px){
+  
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 90%;
+    margin-left: 71px;
+       
+}
+   }
+
+
+
+               @media (max-width : 1114px){
+  
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 90%;
+    margin-left: 61px;
+       
+}
+   }
+
+
+
+
+          @media (max-width : 962px){
+  
+.c11{
+    display: flex ;
+    justify-content: space-around;
+        width: 100%;
+    margin-left: 81px;
+       
+}
+   }
+
+
+
+
+             @media (max-width :986px){
+  
+.c11{
+    display: flex ;
+   flex-direction: column;
+   margin-top: 15px;
+        width: 100%;
+    margin-left: 211px;
+       
+}
+   }
+
+
+                @media (max-width :986px){
+  
+.card-body{
+ 
+   margin-top: 15px;
+       
+       
+}
+   }
+
+
+
+
+
+
+
+.card:hover{
+    -webkit-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.42); 
+box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.42);
+}
+
+
+
+
+/* desc */
+
+
+
+.desc{
+       display: flex;
+    margin-top: -61px;
+    justify-content: space-around;
+    padding: 207px;
+}
+
+
+
+
+
+    @media (max-width :1214px){
+.desc{
+        display: flex;
+    margin-top: -61px;
+    justify-content: space-around;
+    padding: 160px;
+       
+}
+   }
+
+
+
+
+
+   
+.minides{
+     margin-top: 105px;
+    margin-left: 35px;
+    margin-right: -15px;
+    text-align: justify;
+}
+
+
+
+
+
+    @media (max-width :1260px){
+.minide{
+    margin-top: 105px;
+    margin-left: 35px;
+    margin-right: -1px;
+    text-align: justify;
+    width: 80%;
+       
+}
+   }
+
+
+
+   
+    @media (max-width :1234px){
+.minide{
+    margin-top: 105px;
+    margin-left: 5px;
+    margin-right: 75px;
+    text-align: justify;
+    width: 100%;
+       
+}
+   }
+
+
+      
+    @media (max-width :1088px){
+.desc{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+       
+}
+   }
+
+
+   .minides img{
+    width: 565px;
+    height: 465px;
+}
+
+
+
+
+       @media (max-width :1260px){
+.minide img{
+    width: 500px;
+    height: 400px;
+       
+}
+   }
+
+
+
+
+
+/* footerr */
+
+
+.footerr{
+    width: 100%;
+        margin-top: -145px;
+}
+
+
+   
+    @media (max-width :1122px){
+.footerr img{
+    width: 100%;
+        margin-top: 5px;
+}
+}
+
+
+    @media (max-width :1064px){
+.footerr img{
+    width: 110%;
+        margin-top: 5px;
+}
+}
